@@ -15,7 +15,7 @@ public class Libro {
 	private String titulo;
 	private double precio;
 	private Editorial editorial;
-	private Autor autor;
+//	private Autor autor;
 	
 	public int getId() {
 		return id;
@@ -49,13 +49,11 @@ public class Libro {
 		this.editorial = editorial;
 	}
 	
-	public Autor getAutor() {
-		return autor;
-	}
-	
-	public void setAutor(Autor autor) {
-		this.autor = autor;
-	}
+	/*
+	 * public Autor getAutor() { return autor; }
+	 * 
+	 * public void setAutor(Autor autor) { this.autor = autor; }
+	 */
 	
 	@Override
 	public String toString() {
