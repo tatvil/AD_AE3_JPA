@@ -15,7 +15,7 @@
             <property name="javax.persistence.jdbc.password" value=""/>
             
             <!-- Aqui le decimos que nos cree la BBDD si no existe -->
-			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+			<property name="javax.persistence.schema-generation.database.action" value="create"/>
 						 
 			<!-- Mostrar trazas de sql y establecer dialecto con hibernate -->
 			<property name = "hibernate.show_sql" value = "true" />

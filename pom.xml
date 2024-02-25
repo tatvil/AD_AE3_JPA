@@ -13,7 +13,6 @@
 	</properties>
 
 	<dependencies>
-
 		<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
 		<dependency>
 			<groupId>mysql</groupId>
@@ -22,14 +21,14 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.eclipse.persistence/eclipselink -->
-		<!-- Podemos usar cualquier implementacion de JPA, como eclipselink o hibernate
-		(Ver más abajo)
+		<!-- Podemos usar cualquier implementacion de JPA, como eclipselink o hibernate 
+		(Ver más abajo) -->
 		 
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>eclipselink</artifactId>
 			<version>2.7.7</version>
-		</dependency>-->
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
 
 			<dependency>
